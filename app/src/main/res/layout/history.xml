@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools ="http://schemas.android.com/tools"
+    tools:context=".activity.MainActivity"
+    android:background="@drawable/history"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/button20"
+            android:onClick="clicktrx"
+            android:layout_width="85dp"
+            android:layout_height="71dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/btn_trx"
+            tools:layout_editor_absoluteX="7dp"
+            tools:layout_editor_absoluteY="1dp"
+            tools:ignore="ContentDescription,MissingConstraints,OnClick" />
+
+        <ImageView
+            android:id="@+id/button21"
+            android:onClick="clickdeposit"
+            android:layout_width="79dp"
+            android:layout_height="71dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/btn_deposit"
+            tools:layout_editor_absoluteX="100dp"
+            tools:layout_editor_absoluteY="1dp"
+            tools:ignore="ContentDescription,MissingConstraints,OnClick" />
+
+        <ImageView
+            android:id="@+id/button22"
+            android:onClick="clickprofil"
+            android:layout_width="63dp"
+            android:layout_height="68dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/btn_profil"
+            tools:layout_editor_absoluteX="188dp"
+            tools:layout_editor_absoluteY="4dp"
+            tools:ignore="ContentDescription,MissingConstraints,OnClick" />
+
+        <ImageView
+            android:id="@+id/button23"
+            android:layout_width="86dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/btn_historypth"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="248dp"
+            tools:ignore="ContentDescription,MissingConstraints,OnClick" />
+
+        <ImageView
+            android:id="@+id/button24"
+            android:onClick="clicknotice"
+            android:layout_width="71dp"
+            android:layout_height="69dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/btn_notice"
+            tools:layout_editor_absoluteX="335dp"
+            tools:layout_editor_absoluteY="0dp"
+            tools:ignore="ContentDescription,MissingConstraints,OnClick" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

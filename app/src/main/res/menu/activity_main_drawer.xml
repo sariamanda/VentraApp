@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/cs"
+            android:icon="@drawable/ic_cs"
+            android:title="@string/customer_service" />
+        <item
+            android:id="@+id/dftar"
+            android:icon="@drawable/ic_daftaragen"
+            android:title="@string/daftar_agen" />
+        <item
+            android:id="@+id/tfsaldo"
+            android:icon="@drawable/ic_tfsaldo"
+            android:title="@string/transfer_saldo" />
+        <item
+            android:id="@+id/pengirim"
+            android:icon="@drawable/ic_pengirim"
+            android:title="@string/pengirim_terdaftar" />
+        <item
+            android:id="@+id/website"
+            android:icon="@drawable/ic_web"
+            android:title="@string/kunjungi_website_kami" />
+        <item
+            android:id="@+id/pengaturan"
+            android:icon="@drawable/ic_pengaturan"
+            android:title="@string/pengaturan" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/logout" />
+    </group>
+</menu>
